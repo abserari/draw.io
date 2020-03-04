@@ -1,1 +1,49 @@
-<mxfile host="www.draw.io" modified="2020-03-04T15:42:19.711Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36" version="12.7.9" etag="4MHDOCiroiPAg8qtAjH7" type="github"><diagram id="JH2WmtWK9mQz59F3xrbH">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2020-03-04T15:50:25.766Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36" etag="QjRswn25cmsrMy2EiVUW" version="12.7.9" type="github">
+  <diagram id="JH2WmtWK9mQz59F3xrbH" name="第 1 页">
+    <mxGraphModel dx="946" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="q1jjnuo798_5Nm3vddkO-12" value="origin url" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=open;endFill=0;" edge="1" parent="1" source="q1jjnuo798_5Nm3vddkO-1" target="q1jjnuo798_5Nm3vddkO-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q1jjnuo798_5Nm3vddkO-1" value="ReverseProxy&lt;br&gt;listen on localhost:9000" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="244" y="210" width="146" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q1jjnuo798_5Nm3vddkO-11" value="localhost:9001" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="244" y="350" width="146" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q1jjnuo798_5Nm3vddkO-2" value="request" style="endArrow=open;html=1;endFill=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="240" as="sourcePoint" />
+            <mxPoint x="244" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q1jjnuo798_5Nm3vddkO-3" value="Server&lt;br&gt;listen on localhost:9001" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="510" y="210" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q1jjnuo798_5Nm3vddkO-5" value="request" style="endArrow=open;startArrow=none;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;startFill=0;endFill=0;" edge="1" parent="1" source="q1jjnuo798_5Nm3vddkO-1" target="q1jjnuo798_5Nm3vddkO-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="270" as="sourcePoint" />
+            <mxPoint x="410" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q1jjnuo798_5Nm3vddkO-7" value="response" style="endArrow=open;startArrow=none;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;startFill=0;endFill=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="q1jjnuo798_5Nm3vddkO-3" target="q1jjnuo798_5Nm3vddkO-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="260" as="sourcePoint" />
+            <mxPoint x="520" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q1jjnuo798_5Nm3vddkO-10" value="&lt;h1&gt;httputil/ReverseProxy&lt;/h1&gt;&lt;p&gt;ReverseProxy forward request&amp;nbsp;&lt;span&gt;to origin host&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="50" width="270" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="q1jjnuo798_5Nm3vddkO-17" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 12px ; line-height: 18px ; white-space: pre&quot;&gt;&lt;/div&gt;&lt;span style=&quot;font-size: 12px ; text-align: left ; background-color: rgb(248 , 249 , 250)&quot;&gt;reverseproxy :=&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(212 , 212 , 212) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 12px ; white-space: pre ; background-color: rgb(30 , 30 , 30)&quot;&gt;httputil.&lt;/span&gt;&lt;span style=&quot;font-size: 12px ; text-align: left ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;br&gt;NewSingleHostReverseProxy(backURL)&lt;/span&gt;" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="q1jjnuo798_5Nm3vddkO-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="317" y="110" as="sourcePoint" />
+            <mxPoint x="410" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
